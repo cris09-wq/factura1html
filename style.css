@@ -1,0 +1,470 @@
+.Pagina {
+    width: 900px;
+    margin: 40px auto;
+}
+
+.Encabezado {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: rgb(117, 3, 170);
+    padding: 2px 0px 2px 130px;
+}
+
+.buscador {
+    position: relative;
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: purple;
+    gap: 0px;
+    padding: auto;
+}
+
+.Buscador {
+    border: none;
+    background: none;
+}
+
+.Buscador img {
+    width: 20px;
+    height: 22px;
+    background-color: rgb(176, 242, 10);
+    border-radius: 6px;
+    filter: invert(1);
+}
+
+.Usuario {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.BotonUsuario {
+    border: none;
+    background: none;
+
+}
+
+.BotonUsuario img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    filter: invert(1);
+}
+
+.texto {
+    display: flex;
+    padding: 0%;
+    flex-direction: column;
+    margin: 0;
+    gap: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.Favoritos {
+    border: none;
+    background: none;
+}
+
+.Favoritos img {
+    width: 20px;
+    height: 20px;
+    border-radius: 30%;
+    filter: invert(1);
+}
+
+.Compras {
+    border: none;
+    background: none;
+}
+
+.Compras img {
+    width: 20px;
+    height: 20px;
+    border-radius: 30%;
+    filter: invert(1);
+}
+
+.lineados {
+    padding-left: 35px;
+}
+
+.HOME,
+.LOJA,
+.SOBRE,
+.BLOG,
+.AIRDOTS,
+.APPLEWHATCH,
+.CAPINHAS,
+.FONESDEOUVIDO,
+.SMARTWATCH,
+.CONTADO {
+    border: none;
+    background: none;
+    align-items: center;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.contenidobaner {
+    background-image: url(baner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0 100px 70px;
+    position: relative;
+}
+
+.Smartwatch {
+    font-size: 14px;
+    border: 2px solid white;
+    border-radius: 9px;
+    padding: 4px 4px;
+    background-color: rgb(117, 3, 170);
+    color: white;
+    margin-left: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+
+.contenidobaner p {
+    font-size: 46px;
+    color: white;
+    padding: 0 0 0 42px;
+    line-height: 0.790;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.btn {
+    display: inline-flex;
+    gap: 7px;
+    align-items: center;
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: rgba(238, 159, 12, 0.948);
+    border: 3px solid rgb(244, 244, 244);
+    margin-left: 200px;
+    padding: 1px 2px;
+    font-size: 13px;
+}
+
+.btn:hover {
+    background-color: rgb(242, 193, 57);
+}
+
+.btn img {
+    width: 39px;
+    height: 37px;
+}
+
+.botones {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.boton {
+    border-radius: 45%;
+    height: 10px;
+    width: 12px;
+    background-color: rgb(104, 96, 96);
+}
+
+.boton:hover {
+    background-color: white;
+}
+
+.Categorias {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.Articulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.Airdots {
+    height: 90px;
+    width: 155px;
+    border-radius: 10%;
+    border: 1.5px solid rgb(204, 197, 197);
+    background-color: white;
+    padding: 8px 0 0 0;
+}
+
+.Airdots:hover {
+    background-color: rgb(231, 227, 227);
+}
+
+.Airdots img {
+    height: 40px;
+    width: 40px;
+}
+
+.Audifonos {
+    height: 90px;
+    width: 155px;
+    border-radius: 10%;
+    border: 1.5px solid rgb(204, 197, 197);
+    background-color: white;
+    padding: 8px 0 0 0;
+}
+
+.Audifonos:hover {
+    background-color: rgb(231, 227, 227);
+}
+
+.Audifonos img {
+    height: 40px;
+    width: 40px;
+}
+
+.Reloj {
+    height: 90px;
+    width: 155px;
+    border-radius: 10%;
+    border: 1.5px solid rgb(204, 197, 197);
+    background-color: white;
+    padding: 9px 0 0 0;
+}
+
+.Reloj:hover {
+    background-color: rgb(231, 227, 227);
+}
+
+.Reloj img {
+    height: 40px;
+    width: 40px;
+}
+
+.RelojApple {
+    height: 90px;
+    width: 155px;
+    border-radius: 10%;
+    border: 1.5px solid rgb(204, 197, 197);
+    background-color: white;
+    padding: 9px 0 0 0;
+}
+
+.RelojApple:hover {
+    background-color: rgb(231, 227, 227);
+}
+
+.RelojApple img {
+    height: 40px;
+    width: 40px;
+}
+
+.Lancamentos {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 23px 0 0 0;
+    font-weight: 700;
+}
+
+.AudiReloj {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.MiniDots {
+    border: 1px solid rgb(231, 227, 227);
+    height: 390px;
+    width: 200px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.descuento {
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    border-radius: 16px;
+    background-color: rgb(117, 3, 170);
+    color: white;
+    padding: 4px;
+    font-size: 15px;
+}
+
+.MiniDots img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    padding: 10px 0 0 0;
+}
+
+.MiniDots p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.precios {
+    text-align: center;
+}
+
+.precioone {
+    color: rgb(209, 206, 206);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.preciotwo {
+    color: purple;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.estrellas {
+    color: purple;
+    display: flex;
+    justify-content: center;
+}
+
+.MiniDots button {
+    display: inline-flex;
+    margin-left: 55px;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    padding: 3px;
+}
+
+.Xiaomi {
+    border: 1px solid rgb(231, 227, 227);
+    height: 390px;
+    width: 200px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.Xiaomi p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.Xiaomi img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    padding: 10px 0 0 0;
+}
+
+.Xiaomi button {
+    display: inline-flex;
+    margin-left: 55px;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    padding: 3px;
+}
+
+.SeriesLTE {
+    border: 1px solid rgb(231, 227, 227);
+    height: 390px;
+    width: 200px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.SeriesLTE p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.SeriesLTE img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    padding: 10px 0 0 0;
+}
+
+.SeriesLTE button {
+    display: inline-flex;
+    margin-left: 55px;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    padding: 3px;
+}
+
+.SQR {
+    border: 1px solid rgb(231, 227, 227);
+    height: 390px;
+    width: 200px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.SQR img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    padding: 10px 0 0 0;
+}
+
+.SQR button {
+    display: inline-flex;
+    margin-left: 55px;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    padding: 3px;
+}
+
+.SQR p {
+    font-size: 15px;
+    text-align: center;
+}
+.promo{
+    background-image: url(promo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0 180px 100px;
+    position: relative;
+}
